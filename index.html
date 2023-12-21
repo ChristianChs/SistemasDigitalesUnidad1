@@ -1,40 +1,90 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-color="aquamarine">
+				<h1>Proyectoo</h1>
+			</section>
+			<section data-background-color="aquamarine">
+				<section data-auto-animate>
+					<h2>Materiales</h2>
+				</section>
+				<section data-auto-animate>
+					<h2>Materiales</h2>
+					<h3>Protoboard</h3>
+					<img src="assets/placa.png" alt="">
+				</section>
+				<section data-auto-animate>
+					<h2>Materiales</h2>
+					<h3>C. I. 74LS147</h3>
+					<div style="display: flex; justify-content: center;align-items: center;">
+						<img style="margin: 0 10px;max-width: 100%;height: auto;" src="assets/74LS147.png" alt="">
+						<img style="margin: 0 10px;max-width: 100%;height: auto;" src="assets/74LS147_PINOUT.png" alt="SS">
+					</div>
+				</section>
+			</section>
+			<section >
+				<section data-auto-animate>
+					<h3>Armado</h3>
+				</section>
+				<section data-auto-animate data-transition="slide-in fade-out">
+					<h3>Armado</h3>
+					<img src="assets/prototype/1.png" alt="">
+				</section>
+				<section data-transition="fade-in">
+					<h3>Armado</h3>
+					<img src="assets/prototype/2.png" alt="">
+				</section>
+				<section data-transition="fade-in">
+					<h3>Armado</h3>
+					<img src="assets/prototype/3.png" alt="">
+				</section>
+				<section data-transition="fade-in">
+					<h3>Armado</h3>
+					<img src="assets/prototype/4.png" alt="">
+				</section>
+				<section data-transition="fade-in">
+					<h3>Armado</h3>
+					<img src="assets/prototype/5.png" alt="">
+				</section>
+			</section>
+			
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+
+		
+	</script>
+</body>
+
 </html>
